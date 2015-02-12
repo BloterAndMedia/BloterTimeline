@@ -8,7 +8,10 @@ BloterTimeline
 
 ## 사용법
 에디터에 추가된 타임라인 추가 버튼을 클릭하면 타임라인을 작성할 수 있는 폼이 나옵니다.
+![alt tag](http://bloterandmedia.github.io/resources/img/added-plugin-icon-in-editor-tip.png)
+
 타임라인은 주제와 각각의 타임라인 아이템의 제목, 날짜, 이미지, url, 내용을 포함할 수 있습니다.
+![alt tag](http://bloterandmedia.github.io/resources/img/timeline-create-form-modal-expend.PNG)
 
 타임라인 주제는 전체 타임라인을 설명하는 주제로 한번 작성이 가능합니다.
 
@@ -16,3 +19,8 @@ BloterTimeline
 
 ## 주의사항
 현재 버전의 타임라인은 내용을 모두 작성한 후 타임라인의 내용을 수정하는 것이 매우 힘듭니다. 때문에 처음 작성할 때 신중하게 작성해야 불편함을 겪지 않을 수 있습니다. 이 부분은 차후 보완할 예정입니다.
+
+## 필요한 라이브러리
+jQuery
+jQuery UI
+Bootstrap
