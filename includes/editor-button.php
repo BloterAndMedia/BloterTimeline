@@ -1,7 +1,7 @@
 <?php if ( !defined( 'ABSPATH' ) ) exit('No direct script access allowed');
 
 function bloter_timeline_register_tinymce_plugin($plugin_array) {
-    $plugin_array['bloter_timeline'] = plugins_url( 'bloter-timeline/assets/js/bloter-timeline-button.js');
+    $plugin_array['bloter_timeline'] = BLOTERTIMELINE_PLUGIN_URL. 'assets/js/bloter-timeline-button.js';
     return $plugin_array;
 }
 add_filter('mce_external_plugins', 'bloter_timeline_register_tinymce_plugin');

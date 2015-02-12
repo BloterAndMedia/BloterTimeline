@@ -8,6 +8,7 @@ Author: Bloter MediaLab
 Author URI: http://lab.bloter.net/
 */
 
+define('BLOTERTIMELINE_PLUGIN_URL', plugins_url( '/', __FILE__ ) );
 include_once('includes/scripts.php');
 include_once('includes/editor-button.php');
 
