@@ -66,7 +66,7 @@ add_shortcode( "bloter_timeline_item", 'Bloter_Timeline_Item' );
 add_action('admin_footer', 'bloter_timeline_modal');
 function bloter_timeline_modal() {
     ?>
-    <div class="modal fade"  id="bloter-timeline-modal" tabindex="-1" role="dialog" aria-labelledby="bloter-timeline-modal-label" aria-hidden="true">
+    <div class="modal fade"  id="bloter-timeline-modal" tabindex="-1" role="dialog" aria-labelledby="bloter-timeline-modal-label" aria-hidden="true" data-backdroo="static">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

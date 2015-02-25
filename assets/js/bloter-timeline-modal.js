@@ -259,5 +259,9 @@ jQuery(document).ready(function(){
 			$('body').addClass('modal-open');
 		});
 		
+	});
+	
+	$('#bloter-timeline-modal').on('shown.bs.modal', function() {
+    	$(document).off('focusin.modal');
 	}); 	
 });
