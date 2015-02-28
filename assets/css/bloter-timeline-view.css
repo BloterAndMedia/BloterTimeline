@@ -34,9 +34,9 @@
 
 
 .bloter-timeline-item-date{ width:80px;text-align:center;font-size:12px;font-weight:bold;background:#fff;border:1px solid #aaa;position:absolute;padding:8px 5px;box-shadow:0px 1px 0px rgba(0, 0, 0, 0.3);border-radius:2px;z-index:200; }
-.bloter-timeline-item-wrapper .bloter-timeline-item-date{ right:80px;top:20px;border-left:1px solid #fff; } 
-.bloter-timeline-item-wrapper.one-col .bloter-timeline-item-date{ left:80px;top:20px;border-right:1px solid #fff;border-left:1px solid #aaa;box-shadow:0px 1px 0px rgba(0, 0, 0, 0.3); }
-.bloter-timeline-item-wrapper.right .bloter-timeline-item-date{ left:80px;top:60px;right:auto;border-left:1px solid #aaa;border-right:2px solid #fff;box-shadow:0px 1px 0px rgba(0, 0, 0, 0.3); }
+.bloter-timeline-item-wrapper .bloter-timeline-item-date{ right:-80px;top:20px;border-left:1px solid #fff; } 
+.bloter-timeline-item-wrapper.one-col .bloter-timeline-item-date{ left:-80px;top:20px;border-right:1px solid #fff;border-left:1px solid #aaa;box-shadow:0px 1px 0px rgba(0, 0, 0, 0.3); }
+.bloter-timeline-item-wrapper.right .bloter-timeline-item-date{ left:-80px;top:60px;right:auto;border-left:1px solid #aaa;border-right:2px solid #fff;box-shadow:0px 1px 0px rgba(0, 0, 0, 0.3); }
 
 .bloter-timeline-item-image{ width:100%; }
 .bloter-timeline-item-image img{ width:100%; }
