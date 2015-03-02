@@ -17,7 +17,7 @@
 
 
 .bloter-timeline-container{ width:100%;margin-top:50px; }
-.bloter-timeline-subject{ margin-bottom:10px;text-align:center;height:initial;padding:10px; }
+.bloter-timeline-subject{ margin-bottom:10px;text-align:center;height:initial;padding:10px;position:relative;z-index:500; }
 .bloter-timeline-subject h2{ border-radius:3px;display:inline-block !important;color: #fff !important;font-size:20px !important;font-weight: bold;text-align: center !important;margin:0px !important;padding:7px 10px;background:#434a50 !important; }
 
 .bloter-timeline-item-wrapper {
@@ -80,19 +80,28 @@ outline: 0;
 
 
 @media (max-width: 767px) {
+	.bloter-timeline-container{ margin-top:0px; }
+	
+	.bloter-timeline-wrapper{ clear:both; }
     .bloter-timeline-item-wrapper{ float:none;width:100%; }
+    .bloter-timeline-item-wrapper.right{ float:none;width:100%; }
     
-    .bloter-timeline-item-wrapper .bloter-timeline-item-container{ padding:0px 10px 30px 70px; }
-    .bloter-timeline-item-wrapper.right .bloter-timeline-item-container{ padding:0px 10px 30px 70px; }
+    .bloter-timeline-item-wrapper .bloter-timeline-item-container{ padding:0px 0px 30px 80px; }
+    .bloter-timeline-item-wrapper.right .bloter-timeline-item-container{ padding:0px 0px 30px 80px; }
+    
+    .bloter-timeline-item-wrapper .bloter-timeline-item-container .bloter-timeline-item{ border-radius:0px; }
+    .bloter-timeline-item-wrapper.right .bloter-timeline-item-container .bloter-timeline-item{ border-radius:0px; }
     
     .bloter-timeline-subject{ margin-bottom:10px;text-align:center;height:initial;padding:10px 0px; }
-    .bloter-timeline-subject h2{ border-radius:3px;display:block !important;color: #fff !important;font-size:20px !important;font-weight: bold;text-align: center !important;margin:0px !important;padding:7px 10px;background:#434a50 !important; }
+    .bloter-timeline-subject h2{ border-radius:0px;display:block !important;color: #fff !important;font-size:20px !important;font-weight: bold;text-align: center !important;margin:0px !important;padding:7px 10px;background:#434a50 !important; }
     
-    .bloter-timeline-item-wrapper .bloter-timeline-item-date{ width:70px;text-align:center;font-size:0.8em;background:#fff;border:1px solid #aaa;position:absolute;padding:5px;box-shadow:1px 1px 0px rgba(0, 0, 0, 0.3);border-radius:2px;z-index:200; }
-    .bloter-timeline-item-wrapper .bloter-timeline-item-date{ left:-70px;top:10px;border-right:0px;border-left:1px solid #aaa;box-shadow:none; }
-    .bloter-timeline-item-wrapper.right .bloter-timeline-item-date{ left:-70px;top:10px;border-right:0px;border-left:1px solid #aaa;box-shadow:none; }
+    .bloter-timeline-item-wrapper h3.bloter-timeline-item-title{ padding:0px;text-align:right; }
+    
+    .bloter-timeline-item-wrapper .bloter-timeline-item-date{ width:70px;text-align:center;font-size:0.7em;background:#fff;border:1px solid #aaa;position:absolute;padding:5px;box-shadow:1px 1px 0px rgba(0, 0, 0, 0.3);border-radius:0px;z-index:200; }
+    .bloter-timeline-item-wrapper .bloter-timeline-item-date{ left:-81px;top:10px;border-right:0px;border-left:1px solid #aaa;box-shadow:none; }
+    .bloter-timeline-item-wrapper.right .bloter-timeline-item-date{ left:-81px;top:10px;border-right:0px;border-left:1px solid #aaa;box-shadow:none; }
     
     .bloter-timeline-item-wrapper a.bloter-timeline-item-url{ font-size:18px; }
     
     .bloter-timeline-liner{ float:left;margin-left:38px;background:#ddd;z-index: 100;border-radius:4px;left:auto; }
-} 
+}
